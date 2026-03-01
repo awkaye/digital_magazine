@@ -199,3 +199,16 @@ blockquote {
 color: gray;
 text-align: center;
 }
+body.art {
+  background-color: #fffffc;
+}
+.introduction {
+color: black;
+text-align: justify;
+text-indent: 10px;
+font-size: 24px;
+}
+.introduction::first-letter {
+color: red;
+font-size: 40px;
+}
