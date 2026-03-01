@@ -18,16 +18,85 @@ body {
   text-align: center;
   background-color: #150d4a;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5;
+  overflow: hidden;
+  position: sticky;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
 
+ul li {
+  float: right;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #0ab4f7;
+}
+.name {
+  position: absolute;
+  top: 65px;
+  left: 50px;
+  color: yellow;
+  font-size: 100px;
+  font-family: Times New Roman;
+  letter-spacing: 5px;
+  word-spacing: 25px;
+  font-weight: bold;
+}
+.magazine {
+  position: absolute;
+  top: 155px;
+  left: 55px;
+  color: white;
+  font-size: 24px;
+  font-family: Georgia;
+}
 .topic {
   position: absolute;
-  padding: 75px;
-  top: 10px;
-  left: 10px;
+  top: 400px;
+  left: 50px;
   color: white;
-  font-size: 100px;
-  font-family: Brush Script MT, Cursive;
+  font-size: 75px;
+  font-family: Lucida Console;
   text-shadow: 0 0 10px #0ab4f7;
+  font-weight: bold;
+}
+.tagline {
+  position: absolute;
+  top: 300px;
+  right: 75px;
+  color: white;
+  font-size: 24px;
+  font-family: Georgia;
+}
+.date {
+  position: absolute;
+  top: 700px;
+  left: 75px;
+  color: white;
+  font-size: 18px;
+  font-family: Times New Roman;
+  opacity: 0.8;
+}
+.intro {
+  position: absolute;
+  padding: 5;
+  text-align: justify;
+  color: white;
+  font-size: 24px;
+  font-family: Times New Roman;
 }
 </style>
 </head>
@@ -35,8 +104,34 @@ body {
 
 <div class="container">
   <img src= "https://awkaye.github.io/digital_magazine/fb7db994-770e-4569-847d-c84e76d51f8e.jpg" class="head">
-  <div class="topic">Social Media and Teenagers</div>
+  <div>
+    <ul>
+     <li><a href="https://awkaye.github.io/small_business_website/contact.html">Updates</a></li>
+     <li><a href="https://awkaye.github.io/small_business_website/products.html">Articles</a></li>
+     <li><a href="https://awkaye.github.io/small_business_website/about.html">Editors Note
+     </a></li>
+     <li><a href="https://awkaye.github.io/small_business_website/home.html">Home</a></li>
+    </ul>
+  </div>
+  <div class="name">DIGITAL YOUTH</div>
+  <div class="magazine">Magazine</div>
+  <div class="topic">Social Media<br>  and Teenagers</div>
+  <div class="tagline">Always Connected.<br> Always Influenced.</div>
+  <div class="date">Publication Date: March 2026</div>
 </div>
-
+<div>
+<p class="intro">In this special issue, we take a closer look at how social media shapes the lives of teenagers in today’s world. 
+Social media is no longer just a way to communicate, it has become a big part of our everyday routines. 
+From chatting with friends to sharing photos and watching videos, teenagers spend many hours online. 
+Because of this, social media strongly influences how young people think, act, and see themselves.
+<br><br>In this magazine, you will discover how different platforms affect teenage identity, friendships, and self-esteem. 
+Social media can help teens express their creativity, share their talents, and connect with people who have the same interests. 
+It also provides access to news, educational content, and opportunities to learn new skills. 
+However, it also brings challenges such as cyberbullying, comparison culture, peer pressure, and digital addiction. 
+These issues can affect mental health, academic performance, and real-life relationships.
+<br><br>This edition also includes expert insights, helpful tips for building healthy digital habits, and real-life stories that show why responsible online behavior is important. 
+Our goal is to help teenagers understand both the benefits and risks of social media. 
+By becoming more aware and mindful, young people can learn how to use technology wisely and create a healthier balance between their online and offline lives.</p>
+</div>
 </body>
 </html> 
