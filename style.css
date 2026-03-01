@@ -115,3 +115,31 @@ h1 {
   font-size: 20px;
   font-family: Times New Roman;
 }
+.image { 
+        width: 350px;
+         height: 250px;
+         border-radius: 10px;
+         transition: 0.4s;
+}
+.image:hover { 
+        transform: scale(1.05); 
+}
+.news {
+      flex: 10%;
+      padding: 5px;
+}
+.articles {
+  display: flex;
+}
+.headline {
+text-decoration: none;
+color: white;
+text-align: center;
+font-size: 18px;
+}
+.headline:hover {
+text-decoration: underline;
+color: lightblue;
+text-align: center;
+font-size: 18px;
+}
